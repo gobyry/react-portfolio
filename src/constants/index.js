@@ -203,7 +203,7 @@ const projects = [
       },
     ],
     image: warriorsgo,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://warriors-go.vercel.app/",
   },
   {
     name: "AI Pacman Model",
@@ -224,7 +224,7 @@ const projects = [
       },
     ],
     image: pacman,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gobyry/ai-pacman",
   },
 ];
 
