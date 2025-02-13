@@ -31,10 +31,12 @@ import skyit from "./company/skyit.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+
 import tripguide from "./tripguide.png";
 import vert from "./vert.png";
 import warriorsgo from "./warriorsgo.png";
 import pacman from "./pacman.png";
+import maintenance from "./maintenance.png";
 
 import alexander from "./alexander.png";
 import shahab from "./shahab.png";
@@ -71,10 +73,12 @@ export {
 
   carrent,
   jobit,
+
   tripguide,
   vert,
   warriorsgo,
   pacman,
+  maintenance,
 
   alexander,
   shahab,

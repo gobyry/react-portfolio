@@ -27,9 +27,11 @@ import {
   carrent,
   jobit,
   tripguide,
+
   vert,
   warriorsgo,
   pacman,
+  maintenance,
 
   shahab,
   alexander,
@@ -152,31 +154,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Vertical Jump Analyzer",
-    description:
-      "Website for users to upload videos and calculate vertical jump height through key frame analysis and slow-motion playback.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "python",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: vert,
-    source_code_link: "https://github.com/gobyry/vert",
-  },
-  {
     name: "Warriors Go",
     description:
     "App providing real-time game scores, stats, live chat, and news updates using third-party sports APIs.",
@@ -206,9 +183,34 @@ const projects = [
     source_code_link: "https://warriors-go.vercel.app/",
   },
   {
-    name: "AI Pacman Model",
+    name: "Easy Vert",
     description:
-      "AI Pacman with optimized pathfinding and decision-making for strategic and efficient gameplay.",
+      "Website for users to upload videos and calculate vertical jump height through key frame analysis and slow-motion playback.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: vert,
+    source_code_link: "https://github.com/ryanhui30/vert",
+  },
+  {
+    name: "AI Pacman",
+    description:
+      "Artificial intellgence Pacman model with optimized pathfinding and decision-making for strategic and efficient gameplay.",
     tags: [
       {
         name: "python",
@@ -224,7 +226,32 @@ const projects = [
       },
     ],
     image: pacman,
-    source_code_link: "https://github.com/gobyry/ai-pacman",
+    source_code_link: "https://github.com/ryanhui30/ai-pacman",
+  },
+  {
+    name: "On Track",
+    description:
+      "Streamlined maintenance tracking system for technicians to manage equipment logs and visualize maintenance metrics.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: maintenance,
+    source_code_link: "https://github.com/ryanhui30/maintenance-tracker",
   },
 ];
 
