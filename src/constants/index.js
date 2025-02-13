@@ -17,6 +17,10 @@ import {
   figma,
   docker,
 
+  linkedin,
+  github,
+  cv,
+
   meta,
   starbucks,
   tesla,
@@ -61,6 +65,21 @@ export const navLinks = [
 ];
 
 const services = [
+  {
+    title: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/ryanhui30/"
+  },
+  {
+    title: "GitHub",
+    icon: github,
+    link: "https://github.com/ryanhui30"
+  },
+  {
+    title: "Resume",
+    icon: cv,
+    link: "https://flowcv.com/resume/aqs0s1aojc"
+  },
 ];
 
 const technologies = [
